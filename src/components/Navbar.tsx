@@ -56,7 +56,11 @@ const Navbar = () => {
             <button
               key={link.href}
               onClick={() => handleClick(link.href)}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors duration-300 relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-[-4px] after:left-0 after:bg-accent after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left"
+              className={`text-sm font-medium transition-colors duration-300 relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-[-4px] after:left-0 after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left ${
+                scrolled
+                  ? "text-foreground/80 hover:text-primary after:bg-accent"
+                  : "text-white/90 hover:text-white after:bg-white/60"
+              }`}
             >
               {link.label}
             </button>
