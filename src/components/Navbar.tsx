@@ -43,7 +43,9 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <button onClick={() => handleClick("#hero")} className="flex items-center gap-2">
           <img src={logo} alt="Dekoracije Mimi" className="h-12 w-12 rounded-full object-cover" />
-          <span className="font-heading text-xl font-semibold text-primary">
+          <span className={`font-heading text-xl font-semibold transition-colors duration-500 ${
+            scrolled ? "text-primary" : "text-white"
+          }`}>
             Dekoracije Mimi
           </span>
         </button>
