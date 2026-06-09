@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
-import heroBg from "@/assets/photos/pastel-backdrop.jpg.asset.json";
+import heroBgAsset from "@/assets/photos/pastel-backdrop.jpg.asset.json";
+const heroBg = heroBgAsset.url;
 
 const Hero = () => {
   const scrollTo = (id: string) => {
