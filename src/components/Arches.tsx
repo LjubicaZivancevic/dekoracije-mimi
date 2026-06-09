@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Flower2, Star, Sparkles } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 import SectionHeading from "./SectionHeading";
-import archFloral from "@/assets/arch-floral.jpg";
-import archBalloon from "@/assets/arch-balloon.jpg";
-import archRustic from "@/assets/arch-rustic.jpg";
-import archCircular from "@/assets/arch-circular.jpg";
+import archFloral from "@/assets/photos/pink-floral.jpg.asset.json";
+import archBalloon from "@/assets/photos/pastel-cart-full.png.asset.json";
+import archRustic from "@/assets/photos/pastel-backdrop.jpg.asset.json";
+import archCircular from "@/assets/photos/blue-clouds-arch.jpg.asset.json";
 
 const arches = [
   {
