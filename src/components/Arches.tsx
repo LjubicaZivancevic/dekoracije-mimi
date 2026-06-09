@@ -9,7 +9,7 @@ import archCircular from "@/assets/photos/blue-clouds-arch.jpg.asset.json";
 
 const arches = [
   {
-    image: archFloral,
+    image: archFloral.url,
     title: "Cvetni luk",
     description:
       "Raskošan luk od prirodnog cveća — ruže, božuri i zelenilo stvaraju romantičnu atmosferu savršenu za venčanja i svečane ceremonije.",
@@ -17,7 +17,7 @@ const arches = [
     tag: "Najpopularniji",
   },
   {
-    image: archBalloon,
+    image: archBalloon.url,
     title: "Balon luk",
     description:
       "Veseli i šareni balon lukovi u pastelnim tonovima — idealni za rođendane, baby shower proslave i dečije zabave.",
@@ -25,7 +25,7 @@ const arches = [
     tag: "Za proslave",
   },
   {
-    image: archRustic,
+    image: archRustic.url,
     title: "Rustični luk",
     description:
       "Drveni luk sa draperijom i cvećem u boho stilu — savršen izbor za venčanja na otvorenom i rustične proslave.",
@@ -33,7 +33,7 @@ const arches = [
     tag: "Boho stil",
   },
   {
-    image: archCircular,
+    image: archCircular.url,
     title: "Kružni luk",
     description:
       "Elegantni kružni luk bogato ukrašen belim i roze cvećem — luksuzna pozadina za fotografisanje i svečane trenutke.",
