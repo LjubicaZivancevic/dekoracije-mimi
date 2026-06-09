@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
-import heroBgAsset from "@/assets/photos/pastel-backdrop.jpg.asset.json";
+import heroBgAsset from "@/assets/photos/hero.png.asset.json";
 const heroBg = heroBgAsset.url;
 
 const Hero = () => {

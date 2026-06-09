@@ -1,7 +1,7 @@
 import { Heart, Award, Palette, Users } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 import SectionHeading from "./SectionHeading";
-import aboutImageAsset from "@/assets/photos/storefront.jpg.asset.json";
+import aboutImageAsset from "@/assets/photos/aboutus.png.asset.json";
 const aboutImage = aboutImageAsset.url;
 
 const stats = [
@@ -22,14 +22,14 @@ const About = () => (
       <div className="grid lg:grid-cols-2 gap-16 items-center">
         <AnimatedSection delay={0.1}>
           <div className="relative">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
+            <div className="rounded-2xl overflow-hidden shadow-2xl bg-[#0e5d4a]">
               <img
                 src={aboutImage}
-                alt="Dekoracije Mimi at work"
-                className="w-full h-[500px] object-cover"
+                alt="Dekoracije Mimi logo"
+                className="w-full h-[500px] object-contain"
                 loading="lazy"
                 width={800}
-                height={1000}
+                height={800}
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/30 rounded-full blur-2xl" />
