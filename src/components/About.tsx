@@ -1,7 +1,7 @@
 import { Heart, Award, Palette, Users } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 import SectionHeading from "./SectionHeading";
-import aboutImage from "@/assets/about-image.jpg";
+import aboutImage from "@/assets/photos/storefront.jpg.asset.json";
 
 const stats = [
   { icon: Heart, label: "Godina iskustva", value: "5+" },
