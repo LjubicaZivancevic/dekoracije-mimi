@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import { Flower2, Star, Sparkles } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 import SectionHeading from "./SectionHeading";
-import archFloral from "@/assets/arch-floral.jpg";
-import archBalloon from "@/assets/arch-balloon.jpg";
-import archRustic from "@/assets/arch-rustic.jpg";
-import archCircular from "@/assets/arch-circular.jpg";
+import archFloral from "@/assets/photos/pink-floral.jpg.asset.json";
+import archBalloon from "@/assets/photos/pastel-cart-full.png.asset.json";
+import archRustic from "@/assets/photos/pastel-backdrop.jpg.asset.json";
+import archCircular from "@/assets/photos/blue-clouds-arch.jpg.asset.json";
 
 const arches = [
   {
-    image: archFloral,
+    image: archFloral.url,
     title: "Cvetni luk",
     description:
       "Raskošan luk od prirodnog cveća — ruže, božuri i zelenilo stvaraju romantičnu atmosferu savršenu za venčanja i svečane ceremonije.",
@@ -17,7 +17,7 @@ const arches = [
     tag: "Najpopularniji",
   },
   {
-    image: archBalloon,
+    image: archBalloon.url,
     title: "Balon luk",
     description:
       "Veseli i šareni balon lukovi u pastelnim tonovima — idealni za rođendane, baby shower proslave i dečije zabave.",
@@ -25,7 +25,7 @@ const arches = [
     tag: "Za proslave",
   },
   {
-    image: archRustic,
+    image: archRustic.url,
     title: "Rustični luk",
     description:
       "Drveni luk sa draperijom i cvećem u boho stilu — savršen izbor za venčanja na otvorenom i rustične proslave.",
@@ -33,7 +33,7 @@ const arches = [
     tag: "Boho stil",
   },
   {
-    image: archCircular,
+    image: archCircular.url,
     title: "Kružni luk",
     description:
       "Elegantni kružni luk bogato ukrašen belim i roze cvećem — luksuzna pozadina za fotografisanje i svečane trenutke.",

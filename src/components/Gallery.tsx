@@ -4,22 +4,22 @@ import { X } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 import SectionHeading from "./SectionHeading";
 
-import galleryBirthday from "@/assets/gallery-birthday.jpg";
-import galleryWedding from "@/assets/gallery-wedding.jpg";
-import galleryBabyshower from "@/assets/gallery-babyshower.jpg";
-import galleryCorporate from "@/assets/gallery-corporate.jpg";
-import galleryKids from "@/assets/gallery-kids.jpg";
-import galleryBaptism from "@/assets/gallery-baptism.jpg";
+import galleryBirthday from "@/assets/photos/pastel-mirror.jpg.asset.json";
+import galleryWedding from "@/assets/photos/pink-floral.jpg.asset.json";
+import galleryBabyshower from "@/assets/photos/blue-clouds-setup.jpg.asset.json";
+import galleryCorporate from "@/assets/photos/storefront.jpg.asset.json";
+import galleryKids from "@/assets/photos/pastel-cart.jpg.asset.json";
+import galleryBaptism from "@/assets/photos/pink-arch.jpg.asset.json";
 
 const categories = ["Sve", "Rođendani", "Svadbe", "Baby Shower", "Dečije proslave", "Korporativni"];
 
 const galleryItems = [
-  { src: galleryBirthday, category: "Rođendani", title: "Elegantna rođendanska proslava" },
-  { src: galleryWedding, category: "Svadbe", title: "Romantični svadbeni aranžman" },
-  { src: galleryBabyshower, category: "Baby Shower", title: "Nežni baby shower dekor" },
-  { src: galleryCorporate, category: "Korporativni", title: "Sofisticirani korporativni event" },
-  { src: galleryKids, category: "Dečije proslave", title: "Vesela dečija proslava" },
-  { src: galleryBaptism, category: "Rođendani", title: "Dekoracija za krštenje" },
+  { src: galleryBirthday.url, category: "Rođendani", title: "Elegantna rođendanska proslava" },
+  { src: galleryWedding.url, category: "Svadbe", title: "Romantični svadbeni aranžman" },
+  { src: galleryBabyshower.url, category: "Baby Shower", title: "Nežni baby shower dekor" },
+  { src: galleryCorporate.url, category: "Korporativni", title: "Sofisticirani korporativni event" },
+  { src: galleryKids.url, category: "Dečije proslave", title: "Vesela dečija proslava" },
+  { src: galleryBaptism.url, category: "Rođendani", title: "Dekoracija za krštenje" },
 ];
 
 const Gallery = () => {
